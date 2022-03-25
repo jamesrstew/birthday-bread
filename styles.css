@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+}
+
+.main {
+  background-color: white;
+  border: 20px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 10vw;
+}
+
+p,li {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 2vw;
+}
