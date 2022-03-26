@@ -1,9 +1,9 @@
 @media (max-width: 480px) {
-  h1 { font-size: 60px; }
+  h1.breakpoint { font-size: 60px; }
 }
 
 @media (min-width: 481px) {
-  h1 { font-size: 125px; }
+  h1.breakpoint { font-size: 125px; }
 }
 
 body {
