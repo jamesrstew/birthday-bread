@@ -4,16 +4,26 @@ body {
 
 .main {
   background-color: white;
-  border: 20px solid black;
   padding: 50px;
   margin: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 h1 {
   font-family: 'Bungee Shade', cursive;
-  font-size: 125px;
+  font-size: 10vw;
 }
 
 p,li {
   font-family: 'Share Tech Mono', monospace;
+}
+
+.small-bread {
+  width: 100%;
+  max-width: 80px;
+  height: auto;
 }
