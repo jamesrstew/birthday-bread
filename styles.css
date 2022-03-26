@@ -2,28 +2,29 @@ body {
   background-color: black;
 }
 
-.main {
+.container {
   background-color: white;
   padding: 50px;
-  margin: 20px;
   position: absolute;
-  left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
+
 h1 {
-  font-family: 'Bungee Shade', cursive;
-  font-size: 10vw;
+  font-family: 'Bungee Shade', monospace;
+  font-size: 5vw;
 }
 
 p,li {
   font-family: 'Share Tech Mono', monospace;
 }
 
-/* .small-bread {
+.small-bread {
   width: 100%;
   max-width: 80px;
   height: auto;
-} */
+}
