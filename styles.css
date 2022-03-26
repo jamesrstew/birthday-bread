@@ -11,10 +11,9 @@ body {
 
 h1 {
   font-family: 'Bungee Shade', cursive;
-  font-size: 10vw;
+  font-size: 125px;
 }
 
 p,li {
   font-family: 'Share Tech Mono', monospace;
-  font-size: 2vw;
 }
