@@ -4,19 +4,20 @@ body {
 
 .container {
   background-color: white;
-  padding: 50px;
-  position: absolute;
+  padding:50px;
+  margin:50px;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); */
 }
 
 
 h1 {
   font-family: 'Bungee Shade', monospace;
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 p,li {
