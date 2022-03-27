@@ -20,8 +20,8 @@ h1 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  div>h1 {font-size: 10vw;}
-  .container {margin-top:200px;}
+  div>h1 {font-size: 60px;}
+  /* .container {margin-top:200px;} */
 }
 
 p,li {
