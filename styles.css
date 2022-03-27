@@ -1,11 +1,3 @@
-@media (max-width: 480px) {
-  h1.breakpoint { font-size: 60px; }
-}
-
-@media (min-width: 481px) {
-  h1.breakpoint { font-size: 125px; }
-}
-
 body {
   background-color: black;
 }
@@ -24,14 +16,15 @@ body {
 
 h1 {
   font-family: 'Bungee Shade', monospace;
+  font-size: 10vw;
 }
 
 p,li {
   font-family: 'Share Tech Mono', monospace;
+  font-size:18px;
 }
 
 .small-bread {
-  width: 100%;
-  max-width: 80px;
+  width: 100px;
   height: auto;
 }
